@@ -7,7 +7,6 @@ Relu function: f (x) = max (0, x)
 
 ReLU-based deep convolutional networks are trained several times faster than tanh and sigmoid- based networks. The following figure shows the number of iterations for a four-layer convolutional network based on CIFAR-10 that reached 25% training error in tanh and ReLU:
 
-![alex1](img/alex612.png)
 
 2. **Standardization ( Local Response Normalization )**
 
