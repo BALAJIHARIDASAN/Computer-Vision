@@ -4,7 +4,6 @@
 
 Relu function: f (x) = max (0, x)
 
-![alex1](img/alex512.png)
 
 ReLU-based deep convolutional networks are trained several times faster than tanh and sigmoid- based networks. The following figure shows the number of iterations for a four-layer convolutional network based on CIFAR-10 that reached 25% training error in tanh and ReLU:
 
@@ -14,7 +13,7 @@ ReLU-based deep convolutional networks are trained several times faster than tan
 
 After using ReLU f (x) = max (0, x), you will find that the value after the activation function has no range like the tanh and sigmoid functions, so a normalization will usually be done after ReLU, and the LRU is a steady proposal (Not sure here, it should be proposed?) One method in neuroscience is called "Lateral inhibition", which talks about the effect of active neurons on its surrounding neurons.
 
-![alex1](img/alex3.jpg)
+
 
 
 3. **Dropout**
@@ -22,7 +21,6 @@ After using ReLU f (x) = max (0, x), you will find that the value after the acti
 Dropout is also a concept often said, which can effectively prevent overfitting of neural networks. Compared to the general linear model, a regular method is used to prevent the model from overfitting. In the neural network, Dropout is implemented by modifying the structure of the neural network itself. For a certain layer of neurons, randomly delete some neurons with a defined probability, while keeping the individuals of the input layer and output layer neurons unchanged, and then update the parameters according to the learning method of the neural network. In the next iteration, rerandom Remove some neurons until the end of training.
 
 
-![alex1](img/alex4.jpg)
 
 
 4. **Enhanced Data ( Data Augmentation )**
